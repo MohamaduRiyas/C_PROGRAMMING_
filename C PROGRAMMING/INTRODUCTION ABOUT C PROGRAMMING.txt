@@ -1,0 +1,10 @@
+INTRODUCTION ABOUT C PROGRAMMING:
+
+C is a programming language.
+
+C was developed by Dennis Ritchie at Bell Labs in the early 1970s.
+
+C is the mother of all languages :)
+
+
+
