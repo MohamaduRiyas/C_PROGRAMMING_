@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-
+{
     int len, i, count = 0;
 
     printf("Enter a string:");
