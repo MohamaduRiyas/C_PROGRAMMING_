@@ -1,0 +1,24 @@
+#include<stdio.h>
+int no_of_child(int l, int b){
+    int count = 0;
+    while(l>0 && b>0){
+        count++;
+        if(l>b)
+            l = l -b;
+        else
+            b = b - l;
+    }
+    return count;
+    
+    
+}
+void main(){
+    int ls,le,ws,we, sum=0;
+    scanf("%d %d %d %d", &ls,&le,&ws,&we);
+    for(int i=ls; i<=le; i++){
+            for(int j=ws; j<=we; j++){
+                sum = sum+ no_of_child(i,j);
+            }
+        }
+        printf("%d", sum);
+    }
